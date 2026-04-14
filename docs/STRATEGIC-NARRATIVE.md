@@ -5,6 +5,7 @@
 **Audiencia**: Decision-maker en empresa chilena que trata datos personales. Decide si adoptar ARCO Legal como plataforma de compliance antes de que entre en vigencia la Ley 21.719.
 
 **Insights para la decisión**:
+
 - Qué exige la Ley 21.719, cuándo entra en vigencia, y qué sanciones aplica
 - Por qué perder una solicitud en cualquier punto del ciclo genera la misma multa
 - Cómo ARCO Legal cierra ese ciclo de extremo a extremo, incluyendo la recolección desde los sistemas actuales de la empresa
@@ -39,6 +40,7 @@ La Ley 21.719 de Protección de Datos Personales entra en vigencia el **1 de dic
 **Por qué debe resolverse ahora**: La ley entra en vigencia en diciembre 2026. Las multas aplican desde el día 1 para empresas grandes. Construir un proceso desde cero toma tiempo — el margen se reduce.
 
 **Costo de la inacción**:
+
 - Una sola solicitud perdida o respondida fuera de plazo = multa de hasta **5.000 UTM**
 - Incumplimiento sistemático = hasta **20.000 UTM** o **2–4% de ingresos anuales**
 - Los datos personales del titular pueden estar dispersos en múltiples plataformas (RRHH, CRM, Google Drive, etc.) — encontrarlos manualmente consume horas del equipo y es fuente de errores que derivan en respuestas incompletas o vencidas
@@ -50,6 +52,7 @@ La Ley 21.719 de Protección de Datos Personales entra en vigencia el **1 de dic
 **Solución**: ARCO Legal es una plataforma que gestiona el ciclo completo de cada solicitud ARCO+: canal único de recepción para titulares, tracking automático de plazos, gestión y respuesta por el operador, y recolección de datos personales desde las plataformas de la empresa.
 
 La plataforma opera con un **sistema de conectores extensible**:
+
 - Conectores oficiales a plataformas de uso masivo (ej. BUK, Google Drive)
 - API abierta para conectores custom a sistemas específicos de cada empresa
 - Disponible como SaaS o despliegue on-premise para empresas con restricciones de seguridad o regulación sectorial
@@ -70,26 +73,31 @@ La plataforma opera con un **sistema de conectores extensible**:
 ## 4. Estrategia
 
 ### Elección 1: Flujo completo de punta a punta
+
 - **Hacemos**: Cubrimos todo el ciclo — recepción, gestión, respuesta y recolección de datos
 - **No hacemos**: Un tracker simple de plazos sin gestión real
 - **Evidencia**: El compliance requiere trazabilidad completa — un tracker solo no elimina el riesgo de multas
 
 ### Elección 2: Manual-first antes de automatizar
+
 - **Hacemos**: Validamos el workflow con clientes reales antes de invertir en conectores automáticos
 - **No hacemos**: Construir integraciones antes de validar que el proceso funciona
 - **Evidencia**: Reduce el riesgo de automatizar un proceso aún no probado; el cycle time de las primeras empresas en producción informa qué integrar primero
 
 ### Elección 3: PyMEs primero
+
 - **Hacemos**: Nos enfocamos en PyMEs — las más desatendidas, sin DPO ni herramientas propias
 - **No hacemos**: Soluciones enterprise con contratos largos e integraciones profundas desde el día 1
 - **Evidencia**: Mayor dolor no atendido, menor competencia, ciclo de venta más corto
 
 ### Elección 4: Canal único de recepción
+
 - **Hacemos**: Un formulario público como canal oficial de recepción de solicitudes ARCO+
 - **No hacemos**: Múltiples canales paralelos (email, WhatsApp, teléfono) sin centralización
 - **Evidencia**: Centralizar elimina el riesgo de solicitudes perdidas en canales no monitoreados
 
 ### Elección 5: SaaS + opción on-premise
+
 - **Hacemos**: Ofrecemos ARCO Legal como SaaS (default) y como despliegue on-premise
 - **No hacemos**: Forzar a todas las empresas al modelo cloud
 - **Evidencia**: Sectores como banca, salud y gobierno tienen restricciones sobre dónde pueden residir los datos personales — sin opción on-premise, ese mercado queda fuera
@@ -107,6 +115,7 @@ La plataforma opera con un **sistema de conectores extensible**:
 | Conectores e Integraciones | 3 | Clientes en producción | Primera integración automatizada activa |
 
 ### Hitos clave
+
 - [ ] Primera solicitud recibida y trackeada end-to-end
 - [ ] Primera solicitud gestionada y respondida con comprobante de cumplimiento
 - [ ] Primeros clientes en producción → inicio de desarrollo de conectores
@@ -120,6 +129,7 @@ Cada solicitud sigue un tablero Kanban con etapas y definición de listo por eta
 Los reclamos post-respuesta siguen el mismo flujo identificados como tipo `Reclamo` *(implicancias legales de plazos a confirmar con asesoría especializada)*.
 
 ### Métricas de progreso
+
 - Solicitudes procesadas (volumen creciente)
 - % respondidas dentro del plazo legal
 - Cycle time por solicitud (desagregado por etapa Kanban)
