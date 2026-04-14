@@ -10,8 +10,6 @@
 Requisitos del entregable inmediato (previo al desarrollo de software).
 
 - [ ] **DOC-01**: Narrativa estratégica estructurada según framework de presentación estratégica (problema → solución → mercado → diferenciación → roadmap)
-- [ ] **DOC-02**: PRD.md con personas de usuario, flujos principales, requisitos funcionales y no funcionales
-- [ ] **DOC-03**: PRD incluye arquitectura de integraciones (manual-first → API)
 - [ ] **DOC-04**: Narrativa es comprensible por co-founders, socios estratégicos e interesados externos sin contexto previo
 
 ---
@@ -108,9 +106,9 @@ Requisitos del entregable inmediato (previo al desarrollo de software).
 | Requirement | Phase | Status |
 |-------------|-------|--------|
 | DOC-01 | Phase 0 | Pending |
-| DOC-02 | Phase 0 | Pending |
-| DOC-03 | Phase 0 | Pending |
 | DOC-04 | Phase 0 | Pending |
+| DOC-02 | Backlog | Deferred |
+| DOC-03 | Backlog | Deferred |
 | INTAK-01–05 | Phase 1 | Pending |
 | TRACK-01–05 | Phase 1 | Pending |
 | AUTH-01–04 | Phase 1 | Pending |
@@ -120,10 +118,11 @@ Requisitos del entregable inmediato (previo al desarrollo de software).
 | INTG-02–04 | Phase 3 | Pending |
 
 **Coverage:**
-- Fase 0 requirements: 4 total — mapped ✓
+
+- Fase 0 requirements: 2 active (DOC-01, DOC-04) + 2 deferred to backlog (DOC-02, DOC-03)
 - v1 requirements: 24 total — mapped ✓
 - Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-04-13*
-*Last updated: 2026-04-13 after initial definition*
+*Last updated: 2026-04-14 — DOC-02/DOC-03 moved to backlog (Phase 0.1 removed)*

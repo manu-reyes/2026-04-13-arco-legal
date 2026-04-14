@@ -38,6 +38,7 @@ Una empresa puede recibir, gestionar y responder a toda solicitud ARCO+ dentro d
 ## Context
 
 **Marco legal:**
+
 - Ley 21.719 entra en vigencia el 1 de diciembre de 2026
 - Derechos ARCO+: Acceso, Rectificación, Cancelación/Supresión, Oposición, Portabilidad, Bloqueo
 - Plazo: 30 días corridos para responder (ampliable una vez por otros 30 días, con justificación)
@@ -46,12 +47,14 @@ Una empresa puede recibir, gestionar y responder a toda solicitud ARCO+ dentro d
 - Ente regulador: Agencia de Protección de Datos Personales (autónoma)
 
 **Contexto de mercado:**
+
 - La mayoría de las PyMEs chilenas no tienen DPO ni herramientas de compliance de datos
 - Las solicitudes llegan por múltiples canales (email, formulario web, presencial)
 - La data personal está dispersa en múltiples plataformas: RRHH (buk.cl), CRMs, ERPs, email
 - El proceso manual es propenso a errores y pérdida de solicitudes
 
 **Entregable inmediato (Fase 0):**
+
 - Narrativa estratégica (usando framework /draft-strategic-presentation)
 - PRD.md inicial desde el cual partir con el desarrollo
 
